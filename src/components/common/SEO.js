@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: "Keep up with politics, not policy",
+  description: "Keep up with policy, not politics",
   title: 'Megaphone',
   url: '',
   author: 'megaphone',

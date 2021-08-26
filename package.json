@@ -37,7 +37,8 @@
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
     "clean": "rm -rf .cache && rm -rf public",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "add-domain": "echo \"megaphonemedia.org\" > public/CNAME",
+    "deploy": "gatsby build && npm run add-domain && gh-pages -d public -b main"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",

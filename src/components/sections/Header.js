@@ -31,9 +31,9 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Keep up with politics,
+                Keep up with policy,
                 <br />
-                not policy.
+                not politics.
               </h1>
               <br />
               <p>
