@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-absurd",
+  "name": "megaphone-media",
   "private": true,
-  "description": "An absurd starter for Gatsby",
+  "description": "Keep up with policy, not politics",
   "version": "0.1.0",
-  "author": "Ajay NS <ajay.ns@outlook.com>",
+  "author": "Megaphone Media <hi@megaphonemedia.org>",
   "dependencies": {
     "@svgr/webpack": "^4.1.0",
     "gatsby": "^2.0.76",
@@ -36,9 +36,11 @@
     "dev": "gatsby develop",
     "start": "npm run dev",
     "format": "prettier --write \"src/**/*.js\"",
-    "clean": "rm -rf .cache && rm -rf public"
+    "clean": "rm -rf .cache && rm -rf public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "prettier": "^1.15.2"
   }
 }

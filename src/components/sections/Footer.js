@@ -52,13 +52,9 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Absurd</h2>
+              <h2>Megaphone</h2>
               <span>
-                Illustrations by
-                {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
-                </ExternalLink>
+                &copy; Megaphone Media {new Date().getFullYear()}
               </span>
             </Copyright>
             <SocialIcons>
